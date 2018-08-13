@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Google Inc. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +30,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/google/slothfs/gitiles"
+	"github.com/sniperkit/snk.fork.slothfs/gitiles"
 )
 
 func main() {

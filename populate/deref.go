@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Google Inc. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,10 +22,10 @@ package populate
 import (
 	"fmt"
 
-	"github.com/google/slothfs/gitiles"
-	"github.com/google/slothfs/manifest"
-
 	git "github.com/libgit2/git2go"
+
+	"github.com/sniperkit/snk.fork.slothfs/gitiles"
+	"github.com/sniperkit/snk.fork.slothfs/manifest"
 )
 
 // FetchManifest gets the default manifest file from a Gitiles server.

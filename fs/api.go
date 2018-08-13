@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Google Inc. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +22,7 @@ package fs
 import (
 	"regexp"
 
-	"github.com/google/slothfs/manifest"
+	"github.com/sniperkit/snk.fork.slothfs/manifest"
 )
 
 // CloneOption configures for which files we should trigger a git clone.

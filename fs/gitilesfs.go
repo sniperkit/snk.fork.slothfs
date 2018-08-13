@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Google Inc. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,11 +31,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/google/slothfs/cache"
-	"github.com/google/slothfs/gitiles"
 	"github.com/hanwen/go-fuse/fuse"
 	"github.com/hanwen/go-fuse/fuse/nodefs"
 	git "github.com/libgit2/git2go"
+
+	"github.com/sniperkit/snk.fork.slothfs/cache"
+	"github.com/sniperkit/snk.fork.slothfs/gitiles"
 )
 
 // gitilesRoot is the root for a FUSE filesystem backed by a Gitiles

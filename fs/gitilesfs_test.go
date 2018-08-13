@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Google Inc. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -33,8 +38,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/slothfs/gitiles"
-	"github.com/google/slothfs/manifest"
+	"github.com/sniperkit/snk.fork.slothfs/gitiles"
+	"github.com/sniperkit/snk.fork.slothfs/manifest"
 )
 
 const fuseDebug = false

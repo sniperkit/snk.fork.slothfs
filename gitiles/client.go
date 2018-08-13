@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Google Inc. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -28,9 +33,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/google/slothfs/cookie"
 	"golang.org/x/net/context"
 	"golang.org/x/time/rate"
+
+	"github.com/sniperkit/snk.fork.slothfs/cookie"
 )
 
 // Service is a client for the Gitiles JSON interface.

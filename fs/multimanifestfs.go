@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Google Inc. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,11 +27,12 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/google/slothfs/cache"
-	"github.com/google/slothfs/gitiles"
-	"github.com/google/slothfs/manifest"
 	"github.com/hanwen/go-fuse/fuse"
 	"github.com/hanwen/go-fuse/fuse/nodefs"
+
+	"github.com/sniperkit/snk.fork.slothfs/cache"
+	"github.com/sniperkit/snk.fork.slothfs/gitiles"
+	"github.com/sniperkit/snk.fork.slothfs/manifest"
 )
 
 type multiManifestFSRoot struct {
